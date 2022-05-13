@@ -5,7 +5,7 @@ const Translator = require("../components/translator.js");
 const translator = new Translator();
 
 suite("Unit Tests", () => {
-  test("Translate 'Mangoes are my favorite fruit.' to British English", (done) => {
+  test("1. Translate 'Mangoes are my favorite fruit.' to British English", (done) => {
     const input = {
       text: "Mangoes are my favorite fruit.",
       locale: "american-to-british",
@@ -19,7 +19,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'I ate yogurt for breakfast.' to British English", (done) => {
+  test("2. Translate 'I ate yogurt for breakfast.' to British English", (done) => {
     const input = {
       text: "I ate yogurt for breakfast.",
       locale: "american-to-british",
@@ -33,7 +33,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'We had a party at my friend's condo.' to British English", (done) => {
+  test("3. Translate 'We had a party at my friend's condo.' to British English", (done) => {
     const input = {
       text: "We had a party at my friend's condo.",
       locale: "american-to-british",
@@ -47,7 +47,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'Can you toss this in the trashcan for me?' to British English", (done) => {
+  test("4. Translate 'Can you toss this in the trashcan for me?' to British English", (done) => {
     const input = {
       text: "Can you toss this in the trashcan for me?",
       locale: "american-to-british",
@@ -61,7 +61,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'The parking lot was full.' to British English", (done) => {
+  test("5. Translate 'The parking lot was full.' to British English", (done) => {
     const input = {
       text: "The parking lot was full.",
       locale: "american-to-british",
@@ -75,7 +75,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'Like a high tech Rube Goldberg machine.' to British English", (done) => {
+  test("6. Translate 'Like a high tech Rube Goldberg machine.' to British English", (done) => {
     const input = {
       text: "Like a high tech Rube Goldberg machine.",
       locale: "american-to-british",
@@ -89,7 +89,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'To play hooky means to skip class or work.' to British English", (done) => {
+  test("7. Translate 'To play hooky means to skip class or work.' to British English", (done) => {
     const input = {
       text: "To play hooky means to skip class or work.",
       locale: "american-to-british",
@@ -103,7 +103,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'No Mr. Bond, I expect you to die.' to British English", (done) => {
+  test("8. Translate 'No Mr. Bond, I expect you to die.' to British English", (done) => {
     const input = {
       text: "No Mr. Bond, I expect you to die.",
       locale: "american-to-british",
@@ -117,7 +117,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'Dr. Grosh will see you now.' to British English", (done) => {
+  test("9. Translate 'Dr. Grosh will see you now.' to British English", (done) => {
     const input = {
       text: "Dr. Grosh will see you now.",
       locale: "american-to-british",
@@ -131,7 +131,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'Lunch is at 12:15 today.' to British English", (done) => {
+  test("10. Translate 'Lunch is at 12:15 today.' to British English", (done) => {
     const input = {
       text: "Lunch is at 12:15 today.",
       locale: "american-to-british",
@@ -145,7 +145,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'We watched the footie match for a while.' to American English", (done) => {
+  test("11. Translate 'We watched the footie match for a while.' to American English", (done) => {
     const input = {
       text: "We watched the footie match for a while.",
       locale: "british-to-american",
@@ -159,7 +159,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'Paracetamol takes up to an hour to work.' to American English", (done) => {
+  test("12. Translate 'Paracetamol takes up to an hour to work.' to American English", (done) => {
     const input = {
       text: "Paracetamol takes up to an hour to work.",
       locale: "british-to-american",
@@ -173,7 +173,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'First, caramelise the onions.' to American English", (done) => {
+  test("13. Translate 'First, caramelise the onions.' to American English", (done) => {
     const input = {
       text: "First, caramelise the onions.",
       locale: "british-to-american",
@@ -187,7 +187,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'I spent the bank holiday at the funfair.' to American English", (done) => {
+  test("14. Translate 'I spent the bank holiday at the funfair.' to American English", (done) => {
     const input = {
       text: "I spent the bank holiday at the funfair.",
       locale: "british-to-american",
@@ -201,7 +201,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'I had a bicky then went to the chippy.' to American English", (done) => {
+  test("15. Translate 'I had a bicky then went to the chippy.' to American English", (done) => {
     const input = {
       text: "I had a bicky then went to the chippy.",
       locale: "british-to-american",
@@ -215,7 +215,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'I've just got bits and bobs in my bum bag.' to American English", (done) => {
+  test("16. Translate 'I've just got bits and bobs in my bum bag.' to American English", (done) => {
     const input = {
       text: "I've just got bits and bobs in my bum bag.",
       locale: "british-to-american",
@@ -229,7 +229,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'The car boot sale at Boxted Airfield was called off.' to American English", (done) => {
+  test("17. Translate 'The car boot sale at Boxted Airfield was called off.' to American English", (done) => {
     const input = {
       text: "The car boot sale at Boxted Airfield was called off.",
       locale: "british-to-american",
@@ -243,7 +243,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'Have you met Mrs Kalyani?' to American English", (done) => {
+  test("18. Translate 'Have you met Mrs Kalyani?' to American English", (done) => {
     const input = {
       text: "Have you met Mrs Kalyani?",
       locale: "british-to-american",
@@ -257,7 +257,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'Prof Joyner of King's College, London.' to American English", (done) => {
+  test("19. Translate 'Prof Joyner of King's College, London.' to American English", (done) => {
     const input = {
       text: "Prof Joyner of King's College, London.",
       locale: "british-to-american",
@@ -271,7 +271,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Translate 'Tea time is usually around 4 or 4.30.' to American English", (done) => {
+  test("20. Translate 'Tea time is usually around 4 or 4.30.' to American English", (done) => {
     const input = {
       text: "Tea time is usually around 4 or 4.30.",
       locale: "british-to-american",
@@ -285,7 +285,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Highlight translation in 'Mangoes are my favorite fruit.", (done) => {
+  test("21. Highlight translation in 'Mangoes are my favorite fruit.", (done) => {
     const input = {
       text: "Mangoes are my favorite fruit.",
       locale: "american-to-british",
@@ -298,7 +298,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Highlight translation in 'I ate yogurt for breakfast.", (done) => {
+  test("22. Highlight translation in 'I ate yogurt for breakfast.", (done) => {
     const input = {
       text: "I ate yogurt for breakfast.",
       locale: "american-to-british",
@@ -311,7 +311,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Highlight translation in 'We watched the footie match for a while.", (done) => {
+  test("23. Highlight translation in 'We watched the footie match for a while.", (done) => {
     const input = {
       text: "We watched the footie match for a while.",
       locale: "british-to-american",
@@ -324,7 +324,7 @@ suite("Unit Tests", () => {
     done();
   });
 
-  test("Highlight translation in 'Paracetamol takes up to an hour to work.", (done) => {
+  test("24. Highlight translation in 'Paracetamol takes up to an hour to work.", (done) => {
     const input = {
       text: "Paracetamol takes up to an hour to work.",
       locale: "british-to-american",
